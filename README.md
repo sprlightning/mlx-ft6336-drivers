@@ -3,7 +3,9 @@ Use FT6336 touch IC on ESP-IDF without INT# or RST#.
 
 ## 功能说明
 
-参考了GD提供的FT6336驱动和Arduino的FT6336驱动，进行了独立整合；特点如下：
+参考了GoodDisplay提供的FT6336驱动和Arduino的FT6336驱动，进行了独立整合，支持ESP-IDF 5.1.4，使用硬件I2C；
+
+特点如下：
 
 - 用硬件 I2C 通信，简化了代码；
 - 移除中断依赖，支持轮询方式检测触摸；
@@ -20,3 +22,6 @@ Use FT6336 touch IC on ESP-IDF without INT# or RST#.
 
 见example，适配GoodDisplay的2.13寸触摸屏，在屏幕设置了加/减号区域，可在串口输出触摸点数和触摸坐标，增加/减少计数；
 
+## 墨水屏驱动
+
+配套的墨水屏驱动详见[esp32-waveshare-epd-idf](https://github.com/sprlightning/esp32-waveshare-epd-idf)，同样支持ESP-IDF 5.1.4环境。
