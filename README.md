@@ -24,4 +24,7 @@ Use FT6336 touch IC on ESP-IDF without INT# or RST#.
 
 ## 墨水屏驱动
 
-配套的墨水屏驱动详见[esp32-waveshare-epd-idf](https://github.com/sprlightning/esp32-waveshare-epd-idf)，同样支持ESP-IDF 5.1.4环境。
+配套的墨水屏驱动详见：
+
+- 微雪驱动IDF适配版[esp32-waveshare-epd-idf](https://github.com/sprlightning/esp32-waveshare-epd-idf)，支持ESP-IDF 5.1.4环境；
+- GoodDisplay驱动IDF适配版[ESP32epdx-idf](https://github.com/sprlightning/ESP32epdx-idf)，同样支持ESP-IDF 5.1.4环境。
